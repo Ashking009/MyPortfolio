@@ -1,2 +1,2 @@
 # MyPortfolio
-A Website to that showcase my Projects and Skills
+A Website that showcase my Projects and Skills (Still in Development Stage)
