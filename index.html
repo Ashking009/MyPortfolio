@@ -4,12 +4,33 @@
     <link href =css_style.css rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Chilanka&display=swap" rel="stylesheet">
+
     <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/9641a16b93.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header class="header">
+        <div class="sec">
+            <img src="logo.png" class ="logo_img">
+            <button class="nav_toggle" aria-label="toggle nav">
+                <div class="hamburger"></div>
+            </button>
+            <div class="links-cover">
+                <ul class="links">
+                    <li><a href="#" class="home sub">Home</a></li>
+                    <li><a href="#" class="about_me sub">About Me</a></li>
+                    <li><a href="#" class="projects sub">My Projects</a></li>
+                    <li><a href="#" class="contact sub">Contact Me</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
     <section class="intro">
-        <h1 class= "section__head section__head--intro">Hi, I am <strong>Ashish Mishra</strong></h1>
+        <h1 class= "section__head section__head--intro">Hi, I am <div class= "section__head--name">Ashish Mishra</div></h1>
         <p class="section__subheading section__subheading--intro">T H E &ensp; D E V E L O P E R </p>
         <img src ="immg.jpg" alt="an image" class="intro__image">
     </section>
@@ -50,6 +71,16 @@
         </div>
         <img src ="immg2.jpg" alt=" my image" class="about-me_img">
     </section>
-
+    <div class="footer">
+        <p class="contactme">contact_me@</p>
+        <ul class="social-links">
+            <li class="li"><a href=#><i class="fab fa-linkedin"></i></a></li>
+            <li class="li"><a href=#><i class="fab fa-github-square"></i></i></i></a></li>
+            <li class="li"><a href=#><i class="fab fa-instagram-square"></i></i></a></li>
+            <li class="li"><a href=#><i class="far fa-envelope"></i></i></a></li>
+        </ul>
+         <p class="madeby">made by Ashish Mishra with <i class="fas madebyheart fa-heart"></i></p>
+    </div>
+<script src="portfolio.js"></script>
 </body>
 </html>

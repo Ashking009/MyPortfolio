@@ -1,4 +1,6 @@
-// features to be added 
-// button action
-//
-//
+const navToggle = document.querySelector('.nav_toggle');
+navToggle.addEventListener('click',() => {
+    document.body.classList.toggle('nav-open');
+
+});
+
